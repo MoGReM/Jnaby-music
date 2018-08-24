@@ -303,4 +303,9 @@ client.on('message', function(message) {
 });
 
 
+client.on('ready', () => {
+  client.user.setGame(` Julié, Jnàby . 🎶🎼 `,'https://www.twitch.tv/v5bz');
+});
+
+
 client.login(process.env.BOT_TOKEN);
