@@ -309,12 +309,7 @@ client.on('ready', () => {
 
 
 
-client.on('ready', () => {
-    console.log(`Logged in as ${client.user.tag}!`);
-    console.log(`in ${client.guilds.size} servers `)
-    console.log(`[user] ${client.users.size}`)
-    client.user.setStatus("Idle")
-});
+
 
 
 
